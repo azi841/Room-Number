@@ -9,8 +9,6 @@ int RoomNumber::numberOfSets(int roomNumber) {
         return 0;
     }
 
-    int saver = roomNumber;
-
     //Dividing digits into vector
     vector<int> digits;
     while (roomNumber) {
